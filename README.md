@@ -34,7 +34,7 @@ docker build -t tfdv .
 Start a container from the built image.
 
 ```
-docker run -it --rm -v "$(pwd):/app" remla
+docker run -it --rm -v "$(pwd):/app" tfdv
 ```
 
 ## Jupyter notebook
