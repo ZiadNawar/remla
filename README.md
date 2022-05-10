@@ -34,11 +34,11 @@ docker build -t tfdv .
 Start a container from the built image.
 
 ```
-docker run -it --rm -v "$(pwd):/app" tfdv
+docker run -it --rm -v "$(pwd):/app" -p 8888:8888 tfdv
 ```
 
 ## Jupyter notebook
-If all went well, then you should see some output from (Jupyter
+If all went well, then you should see some output (from Jupyter
 notebooks) in your terminal. Visit the url and make sure that Jupyter
 is working properly.
 
